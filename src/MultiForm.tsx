@@ -11,10 +11,10 @@ function MultiForm() {
 
     function handleChange(event: BaseSyntheticEvent) {
         console.log(event.target);
-        const {name, value, translate} = event.target;
+        const { name, value, translate } = event.target;
         console.log(name, value, translate);
         setnameContact(prevValue => {
-            return{
+            return {
                 ...prevValue,
                 [name]: value
             };
@@ -27,9 +27,9 @@ function MultiForm() {
             <p>{contact.firstName} + {contact.lastName}</p>
             <input name="firstName" type='Text' onChange={handleChange} value={contact.firstName} placeholder="your first name ..." />
             <input name="lastName" type='Text' onChange={handleChange} value={contact.lastName} placeholder="your last name ..." />
-            <input name="mobileNumber" type='Text' onChange={handleChange} value={contact.mobileNumber} placeholder="your mobile number..."/>
-            <input type='submit' value="Press Me!" onClick={() => (console.log(contact))}/>
-           
+            <input name="mobileNumber" type='Text' onChange={handleChange} value={contact.mobileNumber} placeholder="your mobile number..." />
+            <input type='submit' value="Press Me!" onClick={() => (console.log(contact))} />
+
         </div>
     );
 }

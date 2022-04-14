@@ -1,17 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -21,9 +22,10 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit], button {
+input[type="submit"],
+button {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -32,7 +34,7 @@ input[type=submit], button {
   cursor: pointer;
 }
 
-.formcontainer{
+.formcontainer {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -40,15 +42,15 @@ input[type=submit], button {
   position: relative;
 }
 
-.formcontainer h3{
+.formcontainer h3 {
   margin: 0px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-.footer{
+.footer {
   position: absolute;
   padding: 10px 10px 0px 10px;
   bottom: 0;

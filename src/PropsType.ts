@@ -1,4 +1,4 @@
 interface PropsType {
-    name: string
-  }
+  name: string
+}
 export default PropsType;
