@@ -1,17 +1,14 @@
 import './App.css';
 import Header from './Header';
-import Footer from './Footer'
-import AppBody from './AppBody'
+import MultiForm from './MultiForm'
 import TodoList from './TodoList';
 
-let headerDataString = "Some Header" as string;
-let footerData = "Some Footer" as string;
-
+let headerDataString = "Udemy Tutorial App" as string;
 function App() {
   return (
     <div className="App">
      <Header name={headerDataString}></Header>
-     <AppBody></AppBody>
+     <MultiForm></MultiForm>
      <TodoList></TodoList>
     </div>
   );

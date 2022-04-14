@@ -1,7 +1,7 @@
 import { BaseSyntheticEvent, useState } from "react";
 
 
-function AppBody() {
+function MultiForm() {
     const [contact, setnameContact] = useState({
         firstName: "",
         lastName: "",
@@ -23,7 +23,7 @@ function AppBody() {
 
     return (
         <div className="formcontainer">
-            <h3>enter some some stuff here</h3>
+            <h3>Multi Form inputs</h3>
             <p>{contact.firstName} + {contact.lastName}</p>
             <input name="firstName" type='Text' onChange={handleChange} value={contact.firstName} placeholder="your first name ..." />
             <input name="lastName" type='Text' onChange={handleChange} value={contact.lastName} placeholder="your last name ..." />
@@ -34,4 +34,4 @@ function AppBody() {
     );
 }
 
-export default AppBody;
+export default MultiForm;

@@ -15,13 +15,13 @@ function TodoList() {
     addItems(prevItems =>{
         return[...prevItems, item];
     });
+    setItem("");
   }
 
   return (
-
     <div className="formcontainer">
       <div className="heading">
-        <h1>To-Do List</h1>
+      <h3>Todo items List</h3>
       </div>
       <div className="form">
         <input
