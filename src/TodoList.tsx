@@ -1,4 +1,6 @@
 import { BaseSyntheticEvent, useState } from "react";
+
+import TodoItem from "./TodoItem";
 import { v4 as uuidv4 } from 'uuid';
 
 function TodoList() {
@@ -37,11 +39,14 @@ function TodoList() {
             </div>
             <div>
                 <ul>
-                    {todoItems.map(todoItem => <li key={uuidv4()}>{todoItem}</li>)}
+                 {todoItems.map(todoItem => <TodoItem keyitem={uuidv4()} text={todoItem}/>)}
                 </ul>
             </div>
         </div>
-    );
+    )
 }
+
+
+
 
 export default TodoList;

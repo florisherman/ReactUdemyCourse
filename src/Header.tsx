@@ -1,6 +1,4 @@
-import PropsType from "./PropsType";
-
-function Header(props: PropsType) {
+function Header(props: any) {
     return (
         <header>
             <h2>
@@ -9,5 +7,4 @@ function Header(props: PropsType) {
         </header>
     )
 }
-
 export default Header;

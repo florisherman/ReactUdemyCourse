@@ -1,6 +1,4 @@
-import PropsType from "./PropsType";
-
-function Footer(props: PropsType) {
+function Footer(props: any) {
   return (
     <div className="footer">
       {props.name}
